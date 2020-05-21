@@ -23,7 +23,7 @@ class student:
         q2 = self.m2 * other.m2
         return "{} {}".format(q1, q2)
 
-    def __le__(self, other):
+    def __le__(self, other):  #this is for less than or equal to operation
         r1 = self.m1 + self.m2
         r2 = other.m1 + other.m2
         if r1 >= r2:
