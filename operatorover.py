@@ -26,7 +26,7 @@ class student:
     def __le__(self, other):  #this is for less than or equal to operation
         r1 = self.m1 + self.m2
         r2 = other.m1 + other.m2
-        if r1 >= r2:
+        if r1 <= r2:
             return True
         else:
             return False
